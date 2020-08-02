@@ -48,6 +48,10 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
   gem 'capistrano3-unicorn'
+
+  gem 'rubocop', require: false
+  gem 'rubocop-rails'
+  gem 'rubocop-rspec'
 end
 
 group :test do
@@ -65,8 +69,8 @@ gem 'devise'
 gem 'haml-rails'
 gem 'sassc', '2.1.0'
 gem 'font-awesome-sass'
-gem 'unicorn', '5.4.1'
 
 group :production do
+  gem 'unicorn'
   gem 'rails_12factor'
 end
