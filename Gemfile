@@ -48,6 +48,7 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
   gem 'capistrano3-unicorn'
+  gem 'capistrano-rails-console'
 
   gem 'rubocop', require: false
   gem 'rubocop-rails'
